@@ -1,6 +1,9 @@
 # TcpServerKit
 
-TcpServerKit Unity client implement
+**TcpServerKit Unity client implement**
+
+import TcpServerKit_UnityCLient.unitypackage
+
 
 ```javascript
 Import `TcpServerKit_UnityClient.unitypackage`
@@ -44,3 +47,7 @@ Client.CloseConnection();
 listener.Init();
 Client.InitServer();
 ```
+
+
+*server package*
+https://www.nuget.org/packages/TcpServerKit
