@@ -10,7 +10,8 @@ import TcpServerKit_UnityCLient.unitypackage
 ```javascript
 Import `TcpServerKit_UnityClient.unitypackage`
 ```
-Add `MuClient.prefab` from TcpClientKit folder
+Drag `MuClient.prefab` from TcpClientKit folder to hierarchy
+and set ip and port
 
 
 Add a new script with a field of type `ClientListener`
