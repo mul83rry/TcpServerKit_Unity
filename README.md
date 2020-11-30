@@ -1,3 +1,4 @@
+
 # TcpServerKit_Unity
 
 **TcpServerKit Unity client implement**
@@ -13,12 +14,6 @@ Import `TcpServerKit_UnityClient.unitypackage`
 Drag `MuClient.prefab` from TcpClientKit folder to hierarchy
 and set ip and port
 
-
-Add a new script with a field of type `ClientListener`
-
-```javascript
-[SerializeField] private ClientListener listener;
-```
 Add required namespace
 
 ```javascript
@@ -40,14 +35,12 @@ Client.On("Login", LoginResult);
 
 Start client
 ```javascript
-listener.Init();
 Client.InitServer();
 ```
 
 For reconnecting
 ```javascript
 Client.CloseConnection();
-listener.Init();
 Client.InitServer();
 ```
 
