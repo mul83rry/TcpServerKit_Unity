@@ -28,7 +28,7 @@ Client.ConnectResult += (ConnectingStatus cs) =>
 };
 ```
 
-Add listeners
+Add listeners (if exists will be replaced)
 ```javascript
 Client.On("Login", LoginResult);
 ```
