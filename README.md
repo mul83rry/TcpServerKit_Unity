@@ -35,13 +35,13 @@ Client.On("Login", LoginResult);
 
 Start client
 ```javascript
-Client.InitServer();
+Client.InitServer(); or InitServer(Encoding type);
 ```
 
 For reconnecting
 ```javascript
 Client.CloseConnection();
-Client.InitServer();
+Client.InitServer(); or InitServer(Encoding type);
 ```
 
 
